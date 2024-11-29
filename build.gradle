@@ -19,4 +19,7 @@ repositories {
 
 dependencies {
     implementation 'org.springframework.boot:spring-boot-starter'
+    implementation 'org.springframework.boot:spring-boot-starter-web'
+    //нужен только для того, чтобы включить отображение HTML из папки templates
+    implementation 'org.springframework.boot:spring-boot-starter-thymeleaf'
 }
